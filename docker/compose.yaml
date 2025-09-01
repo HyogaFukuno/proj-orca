@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   minecraft:
     image: itzg/minecraft-server
@@ -8,7 +6,7 @@ services:
     environment:
       - EULA=TRUE
       - TYPE=CUSTOM
-      - CUSTOM_SERVER=/Rancha.jar
+      - CUSTOM_SERVER=https://storage.googleapis.com/orca-buckets/Rancha.jar
       - MEMORY=4G
       - TZ=America/Chicago
     tty: true
