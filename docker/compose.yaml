@@ -13,3 +13,5 @@ services:
     stdin_open: true
     volumes:
       - ./data:/data
+volumes:
+  data: {}
