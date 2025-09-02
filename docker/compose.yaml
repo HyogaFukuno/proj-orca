@@ -7,11 +7,38 @@ services:
       - EULA=TRUE
       - TYPE=CUSTOM
       - CUSTOM_SERVER=https://storage.googleapis.com/orca-buckets/Rancha.jar
-      - MEMORY=4G
+      - MEMORY=1G
       - TZ=America/Chicago
     tty: true
     stdin_open: true
     volumes:
       - ./data:/data
+    depends_on:
+      - mariadb
+  
+  mariadb:
+    image: mariadb:latest
+    restart: always
+    environment:
+      - MARIADB_ROOT_PASSWORD=rootpass0521
+      - MARIADB_DATABASE=survivalgames
+      - MARIADB_USER=minecraft
+      - MARIADB_PASSWORD=ilchepo0521
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_HOST=mariadb
+      - PMA_USER=minecraft
+      - PMA_PASSWORD=ilchepo0521
+    depends_on:
+      - mariadb
+
 volumes:
   data: {}
+  mariadb_data: {}
