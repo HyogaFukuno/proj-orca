@@ -1,0 +1,78 @@
+# -------------------------------------------------------
+# Imanity Software © 2019 ~ 2022
+#  
+# Welcome to the Rancha configuration of ImanitySpigot3! (rancha.yml)
+# If you need help with the configuration or have any question related to ImanitySpigot,
+# join our discord. Happy Configuration!
+#  
+# Discord: https://discord.gg/GBZKR3nn
+# -------------------------------------------------------
+
+# The path for License Key File
+# By this option you can set it to a static location
+# Which allowing you to using same license key file across the machine.
+licenseKeyFilePath: imanity/.license
+
+# Dependencies version controlThis area provides the ability to upgrade the dependency to a more recent versions
+# Upgrade dependency allow you to access modern features and minor performance improvement
+# However, it may happen that the plugins is not supported
+# Please consider it before upgrading.
+dependencies:
+
+  # The Google Json Library
+  # LEGACY -> 2.2.4 (MC1.8)
+  # MODERN -> 2.8.7
+  gson: LEGACY
+
+  # The MySql Connector Driver Library
+  # LEGACY -> 5.1.14 (MC1.8)
+  # MODERN -> 8.0.25
+  mysqlDriver: LEGACY
+
+  # The Netty Library
+  # LEGACY -> 4.0.23.Final (MC1.8)
+  # MODERN -> 4.1.60.Final
+  #  
+  # IMPORTANT NOTE: To run ImanitySpigot3 for java 9+, Netty will be forced to be modern.
+  netty: LEGACY
+
+  # The Guava Library
+  # LEGACY -> 17.0 (MC1.8)
+  # MODERN -> 33.3.0-jre
+  guava: LEGACY
+
+# The amount of threads to download Spigot JAR
+# Bumping download thread count could provide higher download speed
+downloadThreads: 1
+
+# Automated Update system
+# This area provides the ability to keep your spigot JAR up to date by automatically download updates.
+automated:
+
+  # Automatically update to latest build of your current release when new build were detected
+  updateToLatestBuild: true
+
+  # Automatically update to latest LTS release when new LTS version were detected
+  # This is not recommended if you care about stability
+  # Since each LTS version could have potential changes.
+  updateToLatestLTS: false
+
+  # Automatically update to latest release when new version were detected
+  # This is very NOT recommended
+  # It will update to whatever version, Including LTS or non-LTS
+  updateToLatestVersion: false
+
+# The current version of ImanitySpigot3
+# DO NOT TOUCH IT IF YOU DON'T KNOW WHAT YOU ARE USING
+spigotJarVersion: 2025.08.1 LTS BUILD 1
+
+# The scheduled updated version of ImanitySpigot3
+# DO NOT TOUCH IT IF YOU DON'T KNOW WHAT YOU ARE USING
+scheduledUpdateVersion: none
+
+# ImanitySpigot3 has updated Netty to the latest version
+# But it also comes with come incompatible issues with plugins
+# Since in older versions, netty usually copies bytes to heap buffer with allows you to read byte array
+# But in newer versions, It will return direct buffer instead
+# So this option patch netty to use heap unpooled buffer, So it could fix the issue
+forceNettyUseUnpoolBuffer: true

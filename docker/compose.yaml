@@ -12,7 +12,7 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - ./data:/data
+      - ./minecraft-data:/data
     depends_on:
       - mariadb
   
@@ -40,5 +40,4 @@ services:
       - mariadb
 
 volumes:
-  data: {}
-  mariadb_data: {}
+  mariadb_data:
