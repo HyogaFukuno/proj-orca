@@ -8,4 +8,4 @@ remain-time:
     cleanup: 5
 
 settings:
-    requirement-player-count: 1
+    requirement-player-count: 2
