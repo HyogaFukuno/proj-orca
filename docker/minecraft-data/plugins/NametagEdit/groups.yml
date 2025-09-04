@@ -1,0 +1,36 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&4&l'
+    Suffix: ''
+    SortPriority: 1
+  Administrator:
+    Permission: nte.administrator
+    Prefix: '&4'
+    Suffix: ''
+    SortPriority: 2
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&c'
+    Suffix: '&f'
+    SortPriority: 3
+  Quantum:
+    Permission: nte.quantum
+    Prefix: '&a'
+    Suffix: ''
+    SortPriority: 4
+  Platinum:
+    Permission: nte.platinum
+    Prefix: '&b'
+    Suffix: ''
+    SortPriority: 5
+  Diamond:
+    Permission: nte.diamond
+    Prefix: '&3'
+    Suffix: ''
+    SortPriority: 10
+  Gold:
+    Permission: nte.gold
+    Prefix: '&6'
+    Suffix: ''
+    SortPriority: 7

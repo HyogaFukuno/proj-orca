@@ -12,16 +12,16 @@ useArraysForBlockStates: false
 world-settings:
   default:
     verbose: true
-    redstone-fire-BlockPhysicsEvent: true
-    allow-non-player-entities-on-scoreboards: false
-    fix-east-west-cannoning: false
     hopper:
       push-based: true
       fire-InventoryMoveItemEvent: true
+    allow-non-player-entities-on-scoreboards: false
+    fix-east-west-cannoning: false
+    redstone-fire-BlockPhysicsEvent: true
+    disable-falling-block-stacking-at-256: false
     armor-stand:
       optimize-movement: false
     grass-ignores-light: false
     tnt:
       optimize-movement: false
       optimize-liquid-explosions: true
-    disable-falling-block-stacking-at-256: false
