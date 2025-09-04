@@ -19,3 +19,4 @@
 **/plugins/LuckPerms/**
 !**/plugins/LuckPerms/
 !**/plugins/LuckPerms/config.yml
+!**/plugins/LuckPerms/orca_network_perms.json.gz

@@ -7,8 +7,9 @@ services:
       - EULA=TRUE
       - TYPE=CUSTOM
       - CUSTOM_SERVER=https://storage.googleapis.com/orca-buckets/Rancha.jar
-      - MEMORY=1G
+      - MEMORY=4G
       - TZ=America/Chicago
+      - USE_AIKAR_FLAGS=TRUE
     tty: true
     stdin_open: true
     volumes:
