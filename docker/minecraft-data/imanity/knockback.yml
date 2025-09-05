@@ -12,12 +12,12 @@
 autoSave: true
 
 # The global knockback profile that will be applied to every players and entities
-globalKnockback: vanilla
+globalKnockback: vertical
 
 # The editor type that will be applied when you use /kb
 # V2 - The classic command editor that only works with v2 knockback profiles.
 # V3 - The modern chat editor with modern features (default).
-editorType: V3
+editorType: V2
 
 # The pastebin dev key to publish content into pastebin.
 # You can find your dev key in https://pastebin.com/doc_api#1
