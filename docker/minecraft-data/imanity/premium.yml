@@ -15,9 +15,9 @@ serverName: ImanitySpigot3
 # Placeholder available:
 #    <version> - Current version of the spigot
 version:
-- '&7&m*---------------&f &b&lImanity - Software &f&7&m---------------*'
+- '&7&m*---------------&f &aOrca Network &f&7&m---------------*'
 - ' '
-- '&fThis Server is currently running &bImanitySpigot3 Premium'
+- '&fThis Server is currently running &aOrcaSpigot'
 - '&fVersion: &b<version>'
 - ' '
 - '&7&m*--------------------------------------------------*'

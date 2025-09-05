@@ -18,10 +18,10 @@ world-settings:
     allow-non-player-entities-on-scoreboards: false
     fix-east-west-cannoning: false
     redstone-fire-BlockPhysicsEvent: true
-    disable-falling-block-stacking-at-256: false
     armor-stand:
       optimize-movement: false
     grass-ignores-light: false
     tnt:
       optimize-movement: false
       optimize-liquid-explosions: true
+    disable-falling-block-stacking-at-256: false

@@ -9,37 +9,37 @@
 
 config-version: 9
 data-value-allowed-items: []
-warnWhenSettingExcessiveVelocity: true
 settings:
   baby-zombie-movement-speed: 0.5
   limit-player-interactions: true
 effect-modifiers:
   strength: 1.3
   weakness: -0.5
+warnWhenSettingExcessiveVelocity: true
 world-settings:
   default:
     verbose: true
-    disable-explosion-knockback: false
     fix-cannons: false
+    disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
+    tnt-entity-height-nerf: 0
+    use-hopper-check: false
+    all-chunks-are-slime-chunks: false
+    allow-undead-horse-leashing: false
+    keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
-    portal-search-radius: 128
-    tnt-entity-height-nerf: 0
-    all-chunks-are-slime-chunks: false
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
     container-update-tick-rate: 1
     game-mechanics:
       disable-end-credits: false
       boats-drop-boats: false
       disable-player-crits: false
       disable-chest-cat-detection: false
-    keep-spawn-loaded: true
-    use-hopper-check: false
-    allow-undead-horse-leashing: false
+    portal-search-radius: 128
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
     generator-settings:
       canyon: true
       caves: true
