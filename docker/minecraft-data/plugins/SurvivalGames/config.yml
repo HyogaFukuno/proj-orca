@@ -1,0 +1,12 @@
+remain-time:
+    lobby: 30
+    pre-game: 30
+    live-game: 1800
+    pre-deathmatch: 10
+    deathmatch: 180
+    end-game: 10
+    cleanup: 5
+
+settings:
+    maintenance-mode: false
+    requirement-player-count: 1
