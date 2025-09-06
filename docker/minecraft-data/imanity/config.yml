@@ -133,7 +133,7 @@ instantRespawn: false
 # That has no lapis required, and enchanting level will randomly picked after refresh
 # In 1.8+ client they will automatically receive lapis in enchanting table
 # As a visual item in order for client to enchant without problems.
-oldEnchanting: false
+oldEnchanting: true
 
 # Should the AI of the entities be enabled?
 # Set this to false will override every API usages (MobAIHandler & MobGoal)
