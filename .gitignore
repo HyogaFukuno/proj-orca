@@ -10,6 +10,8 @@
 
 **/imanity/**
 !**/imanity/
+!**/imanity/worlds/
+!**/imanity/worlds/default.yml
 !**/imanity/.license
 !**/imanity/config.yml
 !**/imanity/knockback.yml
