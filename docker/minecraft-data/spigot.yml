@@ -115,7 +115,7 @@ world-settings:
       monsters: 0
       misc: 0
     entity-tracking-range:
-      players: 0
+      players: 40
       animals: 0
       monsters: 0
       misc: 0
